@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "GermaniaOne-Regular";
+    src: url("../../fonts/GermaniaOne-Regular.ttf") format("truetype");
+}
+menu{
+  display: flex;
+  justify-content: center;
+}
+.tablinks{
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    font-size: 22px;
+    font-family: "GermaniaOne-Regular";
+    cursor:pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.tablinks:hover {
+    border:1px solid rgb(185, 0, 0);;
+    background: rgb(185, 0, 0);
+}
+.tablinks-active{
+    border:1px solid rgb(185, 0, 0);;
+    background: rgb(185, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    font-size: 22px;
+    font-family: "GermaniaOne-Regular";
+    cursor:pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+  

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "GermaniaOne-Regular";
+    src: url("../../../fonts/GermaniaOne-Regular.ttf") format("truetype");
+}
+
+.punk-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.punk-card-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:3px solid black;
+    border-radius: 5px;
+    min-width: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:15px;
+    cursor: pointer;
+}
+.punk-card-name{
+    font-size: 22px;
+    text-align: center;
+    font-family: "GermaniaOne-Regular";
+    max-width:200px;
+    min-height:50px;
+}
+.punk-card-abv{
+    font-size: 22px;
+    text-align: center;
+    font-family: "GermaniaOne-Regular";
+}
+.punk-beers-active{
+    display: block;
+}
+.punk-beers{
+    display: none;
+}
