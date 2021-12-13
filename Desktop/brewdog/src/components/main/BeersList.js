@@ -59,7 +59,9 @@ export default function Beers({ posts, loading, toggleState }) {
           <div className="punk-wrapper active">
           {posts.sort((a,b) => (a.abv < b.abv  ? -1 : 1)).map((post) => (
             <Link className="link" to={`/beers/${post.id}`}>
+               <div className="punk-card-wrapper" key={post.id}>
               <BeersItem post={post} toggleState={toggleState} />
+              </div>
             </Link>
           ))}
         </div>
@@ -68,7 +70,9 @@ export default function Beers({ posts, loading, toggleState }) {
           <div className="punk-wrapper active">
           {posts.sort((a,b) => (a.abv < b.abv  ? 1 : -1)).map((post) => (
             <Link className="link" to={`/beers/${post.id}`}>
+               <div className="punk-card-wrapper" key={post.id}>
               <BeersItem post={post} toggleState={toggleState} />
+              </div>
             </Link>
           ))}
         </div>
@@ -77,7 +81,9 @@ export default function Beers({ posts, loading, toggleState }) {
           <div className="punk-wrapper active">
               {posts.sort((a,b) => (a.name < b.name ? -1 : 1 )).map((post) => (
                 <Link className="link" to={`/beers/${post.id}`}>
+                   <div className="punk-card-wrapper" key={post.id}>
                   <BeersItem post={post} toggleState={toggleState} />
+                  </div>
                 </Link>
               ))}
             </div>
@@ -85,7 +91,9 @@ export default function Beers({ posts, loading, toggleState }) {
           <div className="punk-wrapper active">
           {posts.sort((a,b) => (a.name < b.name  ? 1 : -1)).map((post) => (
             <Link className="link" to={`/beers/${post.id}`}>
+               <div className="punk-card-wrapper" key={post.id}>
               <BeersItem post={post} toggleState={toggleState} />
+              </div>
             </Link>
           ))}
         </div>

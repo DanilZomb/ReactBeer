@@ -5,27 +5,27 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div class="all-header">
-      <header class="container-fluid">
+    <div className="all-header">
+      <header className="container-fluid">
         <Link className="link" to="/">
-          <div class="col-auto header-wrapper-logo" style={{ maxWidth: "400px" }}>
-            <logo class="header-logo-icon">Brewdog</logo>
+          <div className="col-auto header-wrapper-logo" style={{ maxWidth: "400px" }}>
+            <div className="header-logo-icon">Brewdog</div>
           </div>
         </Link>
 
         <div
-          class="col-auto header-wrapper-input"
+          className="col-auto header-wrapper-input"
           style={{ maxWidth: "400px" }}
         >
-          <label class="header-wrapper-label">
+          <label className="header-wrapper-label">
             <input
               type="text"
               placeholder="Search..."
-              class="header-inpt"
+              className="header-inpt"
               required
             />
 
-            <button type="button" class="header-btn">
+            <button type="button" className="header-btn">
               <img src={ImgLoop} width="15" height="15" alt="btn-icon" />
             </button>
           </label>
