@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div class="all-header">
       <header class="container-fluid">
-        <Link to="/">
+        <Link className="link" to="/">
           <div class="col-auto header-wrapper-logo" style={{ maxWidth: "400px" }}>
             <logo class="header-logo-icon">Brewdog</logo>
           </div>

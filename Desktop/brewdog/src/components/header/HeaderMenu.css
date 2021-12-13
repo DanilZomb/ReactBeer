@@ -5,6 +5,21 @@
 menu{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.header-menu-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    max-width: 700px;
+}
+.header-menu-sec-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    max-width: 700px;
 }
 .tablinks{
     border:1px solid black;
@@ -17,6 +32,7 @@ menu{
     cursor:pointer;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 .tablinks:hover {
     border:1px solid rgb(185, 0, 0);;

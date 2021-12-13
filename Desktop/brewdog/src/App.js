@@ -11,7 +11,7 @@ export default function App() {
     <Header />
     <Routes>
       <Route exact path="/" element={<BeersPage/>}/>
-      <Route path="/beers/:name" element={<BeerPage/>}/>
+      <Route path="/beers/:id" element={<BeerPage/>}/>
     </Routes>
    </> 
   );

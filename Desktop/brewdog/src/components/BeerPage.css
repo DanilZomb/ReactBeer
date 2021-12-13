@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "GermaniaOne-Regular";
+    src: url("../fonts/GermaniaOne-Regular.ttf") format("truetype");
+}
+
+.beer-information-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.beer-inform-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+}
+.beer-text-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:150px;
+}
+.beer-inf-name{ 
+    color:black; 
+    font-family: sans-serif;
+    font-weight: bold;
+    word-break: break-word;  
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    font-family: "GermaniaOne-Regular";
+}
+.beer-inf-wrapper{
+    padding-top: 10px;
+}
+.beer-inf{
+    max-width:350px;
+    color:black; 
+    font-family: sans-serif;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 19px;
+    margin-top:-5px;
+    font-family: "GermaniaOne-Regular";
+    letter-spacing: 1.2px;
+    padding: 5px;
+}
+
+.beer-inf-desc{
+    max-width:350px;
+    color:black; 
+    font-family: sans-serif;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 19px;
+    margin-top:-5px;
+    font-family: "GermaniaOne-Regular";
+    letter-spacing: 1.2px;
+    height: auto;
+}
+
+.beer-inf-desc-hide{
+    max-width:350px;
+    color:black; 
+    font-family: sans-serif;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 19px;
+    margin-top:-5px;
+    font-family: "GermaniaOne-Regular";
+    letter-spacing: 1.2px;
+    height: 45px;
+    overflow: hidden;
+}
+.beer-inf-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.beer-inf-btn{
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 3px;
+    cursor: pointer;
+    background:white;
+    color: rgb(151, 151, 151);
+    padding: 13px auto;
+    font-family: "GermaniaOne-Regular";
+    font-size: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .beer-information-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-direction:column;
+        margin-top: 50px;
+        border:1px solid transparent;
+    }
+    .beer-inform-wrapper{
+        display: flex;
+        flex-direction: column;
+        border:1px solid transparent;
+        max-width: 1000px;
+    }
+    .beer-text-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left:0px;
+        border:1px solid transparent;
+        width: 100%;
+        text-align: center;
+    }
+    .beer-inf-img{
+        height: 50%;
+        margin: 0 auto;
+    }
+    .beer-inf-name{ 
+        color:black; 
+        font-family: "GermaniaOne-Regular";
+        font-weight: bold;
+        word-break: break-word;  
+        font-size: 25px;
+        max-width: 450px;
+    }
+    .beer-inf-wrapper{
+        max-width:250px;
+        border:1px solid transparent;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .beer-information-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-direction:column;
+        margin-top: 50px;
+        border:1px solid transparent;
+    }
+    .beer-inform-wrapper{
+        display: flex;
+        flex-direction: column;
+        border:1px solid transparent;
+        max-width: 1000px;
+    }
+    .beer-text-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left:0px;
+        border:1px solid transparent;
+        width: 100%;
+        text-align: center;
+    }
+    .beer-inf-img{
+        height: 50%;
+        margin: 0 auto;
+    }
+    .beer-inf-name{ 
+        color:black; 
+        font-family: "GermaniaOne-Regular";
+        font-weight: bold;
+        word-break: break-word; 
+        font-size: 25px;
+        max-width: 450px;;
+    }
+    .beer-inf-wrapper{
+        max-width:250px;
+        border:1px solid transparent;
+        margin: 0 auto;
+    }
+}
+

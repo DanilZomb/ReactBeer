@@ -6,20 +6,21 @@ export default function useBeersAxios(url) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      try {
-        const { data: response } = await axios.get(
-          "https://api.punkapi.com/v2/beers"
-        );
-        setData(response);
-      } catch (error) {
-        console.error(error);
-      }
-      setLoading(false);
-    };
-    
-    fetchData();
+    setLoading(true);
+    setTimeout(() => {
+      const fetchData = async () => {
+        try {
+          const { data: response } = await axios.get(
+            "https://api.punkapi.com/v2/beers"
+          );
+          setData(response);
+        } catch (error) {
+          console.error(error);
+        }
+        setLoading(false);
+      };
+      fetchData();
+    }, 1000);
   }, []);
 
   return {
