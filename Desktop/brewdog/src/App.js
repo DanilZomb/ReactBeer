@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header/Header";
-import BeersPage from "./components/BeersPage";
-import BeerPage from "./components/BeerPage";
+import BeersPage from "./BeersPage";
+import BeerPage from "./BeerPage";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 

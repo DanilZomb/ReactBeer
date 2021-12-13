@@ -1,6 +1,6 @@
 @font-face {
     font-family: "GermaniaOne-Regular";
-    src: url("../fonts/GermaniaOne-Regular.ttf") format("truetype");
+    src: url("./fonts/GermaniaOne-Regular.ttf") format("truetype");
 }
 
 .beer-information-wrapper{

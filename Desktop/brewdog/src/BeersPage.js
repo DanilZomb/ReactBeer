@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import BeersList from './main/BeersList'
-import useBeersAxios from "./useBeersAxios";
-import HeaderMenu from "./header/HeaderMenu";
+import BeersList from './components/main/BeersList'
+import useBeersAxios from "./components/useBeersAxios";
+import HeaderMenu from "./components/header/HeaderMenu";
 
 export default function BeersPage() {
   const [toggleState, setToggleState] = useState(1);
